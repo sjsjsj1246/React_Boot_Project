@@ -1,0 +1,33 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #203f5488;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container ion-icon {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 10rem;
+  color: white;
+}
+
+.nav {
+  align-self: flex-end;
+  display: flex;
+  margin-right: 10rem;
+}
+
+.nav a {
+  font-size: 1.3rem;
+  width: 5.4rem;
+  height: 3rem;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}

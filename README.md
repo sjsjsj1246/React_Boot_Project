@@ -5,6 +5,12 @@
 - styled 컴포넌트를 써보고 꽤 놀랐다. 조건부로 스타일링 하기 편할 것 같다. 하지만 그래도 원래 방식이 스타일링 하기엔 편한 것 같다.
 - context-API 상태를 전역적으로 관리할 수 있다는 것이 굉장히 편했다.
 
+## libaray
+
+- React
+- react-icons
+- styled-components
+
 ## Context-API 정리
 
 - Context 안엔느 Provider와 Consumer 컴포넌트가 있다.

@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/React_Boot_Project/static/css/main.609255f6.chunk.css",
-    "main.js": "/React_Boot_Project/static/js/main.2b0dafbe.chunk.js",
-    "main.js.map": "/React_Boot_Project/static/js/main.2b0dafbe.chunk.js.map",
+    "main.js": "/React_Boot_Project/static/js/main.95f1f3c8.chunk.js",
+    "main.js.map": "/React_Boot_Project/static/js/main.95f1f3c8.chunk.js.map",
     "runtime-main.js": "/React_Boot_Project/static/js/runtime-main.b6e880b0.js",
     "runtime-main.js.map": "/React_Boot_Project/static/js/runtime-main.b6e880b0.js.map",
-    "static/js/2.98e74bad.chunk.js": "/React_Boot_Project/static/js/2.98e74bad.chunk.js",
-    "static/js/2.98e74bad.chunk.js.map": "/React_Boot_Project/static/js/2.98e74bad.chunk.js.map",
+    "static/js/2.531ae4c9.chunk.js": "/React_Boot_Project/static/js/2.531ae4c9.chunk.js",
+    "static/js/2.531ae4c9.chunk.js.map": "/React_Boot_Project/static/js/2.531ae4c9.chunk.js.map",
     "index.html": "/React_Boot_Project/index.html",
     "static/css/main.609255f6.chunk.css.map": "/React_Boot_Project/static/css/main.609255f6.chunk.css.map",
-    "static/js/2.98e74bad.chunk.js.LICENSE.txt": "/React_Boot_Project/static/js/2.98e74bad.chunk.js.LICENSE.txt"
+    "static/js/2.531ae4c9.chunk.js.LICENSE.txt": "/React_Boot_Project/static/js/2.531ae4c9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b6e880b0.js",
-    "static/js/2.98e74bad.chunk.js",
+    "static/js/2.531ae4c9.chunk.js",
     "static/css/main.609255f6.chunk.css",
-    "static/js/main.2b0dafbe.chunk.js"
+    "static/js/main.95f1f3c8.chunk.js"
   ]
 }

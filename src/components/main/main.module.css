@@ -30,11 +30,12 @@
 }
 
 .title h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
 .projectList {
+  font-size: 1.5rem;
   width: 20rem;
   margin: 2rem;
   padding: 0 1rem;
@@ -45,7 +46,22 @@
   background-color: #fcf1df94;
 }
 
-.projectList a {
+.projectItem {
   text-decoration: none;
   color: black;
+  /* border: solid 2px #fcf1df; */
+  padding: 0.7rem 1.5rem;
+  transition: 0.5s;
+}
+
+.projectItem:hover {
+  background-color: #fcf1dfc5;
+}
+
+.projectTitle {
+  font-size: 1.7rem;
+}
+
+.projectExplain {
+  font-size: 1rem;
 }

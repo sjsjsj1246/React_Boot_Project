@@ -3,6 +3,13 @@ import { Link } from 'react-router-dom';
 import styles from './main.module.css';
 
 const Main = (props) => {
+  const projects = [
+    {
+      id: 'todoList',
+      title: 'Todo List',
+      explain: 'context API & styled-component',
+    },
+  ];
   return (
     <div className={styles.container}>
       <img
@@ -16,9 +23,12 @@ const Main = (props) => {
           <p>React, Redux, typescript...</p>
         </div>
         <div className={styles.projectList}>
-          <Link to="/">Context API</Link>
-          <Link to="/">TypeScript</Link>
-          <Link to="/">Redux</Link>
+          {projects.map((item) => (
+            <Link className={styles.projectItem} to={`/${item.id}`}>
+              <h1 className={styles.projectTitle}>{item.title}</h1>
+              <p className={styles.projectExplain}>{item.explain}</p>
+            </Link>
+          ))}
         </div>
       </div>
     </div>

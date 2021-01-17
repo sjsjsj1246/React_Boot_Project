@@ -5,7 +5,9 @@ import styles from './header.module.css';
 const Header = (props) => {
   return (
     <header className={styles.container}>
-      <ion-icon name="logo-react" />
+      <Link to="/">
+        <ion-icon name="logo-react" />
+      </Link>
       <nav className={styles.nav}>
         <Link to="">hi</Link>
         <Link to="">hi</Link>

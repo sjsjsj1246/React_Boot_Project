@@ -9,10 +9,10 @@ const Header = (props) => {
         <ion-icon name="logo-react" />
       </Link>
       <nav className={styles.nav}>
-        <Link to="">hi</Link>
-        <Link to="">hi</Link>
-        <Link to="">hi</Link>
-        <Link to="">hi</Link>
+        <a href="https://youtu.be/hqwDFwqyWkE">하나</a>
+        <a href="https://youtu.be/hqwDFwqyWkE?t=1">둘</a>
+        <a href="https://youtu.be/hqwDFwqyWkE?t=1.5">셋</a>
+        <a href="https://youtu.be/hqwDFwqyWkE?t=2">야!</a>
       </nav>
     </header>
   );

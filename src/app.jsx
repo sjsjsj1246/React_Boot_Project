@@ -3,6 +3,7 @@ import styles from './app.module.css';
 import Header from './components/header/header';
 import Main from './components/main/main';
 import TodoListApp from './projects/todo_list/src/app';
+import ConnectApiApp from './projects/connect_API/src/app';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </Route>
         <Route path="/todoList">
           <TodoListApp />
+        </Route>
+        <Route path="/connectAPI">
+          <ConnectApiApp />
         </Route>
       </Switch>
     </BrowserRouter>

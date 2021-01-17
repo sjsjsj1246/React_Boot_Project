@@ -9,6 +9,11 @@ const Main = (props) => {
       title: 'Todo List',
       explain: 'context API & styled-component',
     },
+    {
+      id: 'connectAPI',
+      title: 'Connect API',
+      explain: 'API, Async, Context',
+    },
   ];
   return (
     <div className={styles.container}>

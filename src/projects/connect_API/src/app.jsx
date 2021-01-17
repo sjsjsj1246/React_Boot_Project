@@ -1,7 +1,8 @@
 import React from 'react';
+import Users from './components/users';
 
 const App = (props) => {
-  return <h1>App</h1>;
+  return <Users />;
 };
 
 export default App;

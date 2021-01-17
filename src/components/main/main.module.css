@@ -36,22 +36,26 @@
 
 .projectList {
   font-size: 1.5rem;
-  width: 20rem;
-  margin: 2rem;
-  padding: 0 1rem;
+  width: 25rem;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   background-color: #fcf1df94;
 }
 
 .projectItem {
+  width: 16.5rem;
+  height: 5.3rem;
+  padding: 0.7rem 1.5rem;
   text-decoration: none;
   color: black;
-  /* border: solid 2px #fcf1df; */
-  padding: 0.7rem 1.5rem;
-  transition: 0.5s;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .projectItem:hover {

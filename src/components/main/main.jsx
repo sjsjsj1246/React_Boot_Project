@@ -14,6 +14,16 @@ const Main = (props) => {
       title: 'Connect API',
       explain: 'API, Async, Context',
     },
+    {
+      id: 'redux',
+      title: 'Redux',
+      explain: 'Redux, useSelector, connect',
+    },
+    {
+      id: 'typescript',
+      title: 'TypeScript',
+      explain: 'TypeScript with context API, redux',
+    },
   ];
   return (
     <div className={styles.container}>

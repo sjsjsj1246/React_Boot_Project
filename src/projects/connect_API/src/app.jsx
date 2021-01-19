@@ -1,11 +1,14 @@
 import React from 'react';
 import Users from './components/users';
-import './app.css';
+import styles from './app.module.css';
+import { UsersProvider } from './users_context';
 
 const App = (props) => {
   return (
-    <div className="container">
-      <Users />
+    <div className={styles.container}>
+      <UsersProvider>
+        <Users />
+      </UsersProvider>
     </div>
   );
 };
